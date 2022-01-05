@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    /* flex-direction: ; */
+}
+
+
+#caja1{
+    background-color: red;
+    color: white;
+}
+
+#caja2{
+    background-color: blue;
+    color: white;
+}
