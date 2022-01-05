@@ -7,7 +7,16 @@ h1{
 }
 
 .contenedor{
+    width: 500px;
+    height:500px;
+    background-color: silver;
+    padding: 20px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 100px; */
+    
     /* flex-direction: ; */
 }
 
@@ -15,9 +24,27 @@ h1{
 #caja1{
     background-color: red;
     color: white;
+    padding:5px;
+    border-radius:10px;
+    height:30px;
 }
 
 #caja2{
     background-color: blue;
     color: white;
+    padding:5px;
+    border-radius:10px;
+    height:30px;
 }
+#caja3{
+    background-color: green;
+    color: white;
+    padding:5px;
+    border-radius:10px;
+    height:30px;
+}
+/* .caja{
+    background-color: green;
+    border: solid 1px red;
+    color: white;
+} */
