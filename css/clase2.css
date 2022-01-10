@@ -1,0 +1,11 @@
+.e1{
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+.e1:hover{
+    border: 1px solid red;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
