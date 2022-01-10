@@ -1,5 +1,5 @@
 .e1{
-    background-color: #f2f2f2;
+    background-color: blue;
     padding: 30px;
 }
 .e1:hover{
@@ -9,3 +9,53 @@
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
+
+/* ejemplo2 */
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(100px, auto);
+}
+.e2{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.e2:hover{
+    border: 1px solid red;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+}
+
+.header{
+    background-color: black;
+    grid-column-start: x0 ;
+    grid-column-end: x3;
+
+    grid-column: x0 x3;
+    padding: 50px;
+}
+.sidebar{
+    background-color:red;
+    grid-row: y1/y2;
+    padding: 50px;
+    color: white;
+}
+.main{
+    background-color:blue;
+    grid-column: x1/x3;
+    grid-row: y1/y2;
+    padding: 50px;
+}
+.footer{
+    background-color:green;
+    grid-column: x0/x3;
+    padding: 50px;
+}
+
