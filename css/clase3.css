@@ -32,21 +32,34 @@ main{
 }
 
 
+/* ====Media Queries==== */
 
-@media screen and (max-width: 1045px){
-    body{
-        background-color: red;
-    }
+/*Pantallas Grandes*/
+@media screen and (max-width:1140px){
+
 }
 
 
 /* Pantallas Medianas */
 @media screen and (max-width:768px){
-    
+    .caja1 img{
+        width: 150px;
+    }
 }
 
 
 /* Pantallas Pequeñas */
-@media screen and (max-width:425px){
+@media screen and (max-width:500px){
+    main{
+        flex-direction: column;
+    }
+    .caja1{
+        margin:0px 0px 25px;
+    }
+}
 
+@media screen and (max-width:170px) {
+    .caja1 img{
+        width: 50px;
+    }
 }
