@@ -16,7 +16,6 @@ main{
 }
 .caja1 img{
     width: 200px;
-    border-radius:200px;
 }
 
 .caja2{
@@ -33,5 +32,21 @@ main{
 }
 
 
-/* ====Media Queries==== */
 
+@media screen and (max-width: 1045px){
+    body{
+        background-color: red;
+    }
+}
+
+
+/* Pantallas Medianas */
+@media screen and (max-width:768px){
+    
+}
+
+
+/* Pantallas Pequeñas */
+@media screen and (max-width:425px){
+
+}
